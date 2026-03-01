@@ -34,10 +34,11 @@ const translations = {
       community: '社群'
     },
     hero: {
-      title: '赋予OpenClaw更强大的网页操控能力',
+      title: '使用 AutoClaw 控制任意网页和收藏夹执行自动化任务',
       subtitle: '基于Chrome Debugger API的浏览器自动化工具，支持收藏夹管理、CDP深度控制、自动化脚本和一次授权接管所有标签页',
       downloadBtn: '立即下载',
-      docsBtn: '查看文档'
+      docsBtn: '查看文档',
+      website: 'www.wboke.com'
     },
     features: {
       title: '为什么选择 autoclaw',
@@ -80,10 +81,11 @@ const translations = {
       community: 'Community'
     },
     hero: {
-      title: 'Empower OpenClaw with Powerful Web Control',
+      title: 'Use AutoClaw to Control Any Webpage and Bookmark to Execute Automated Tasks',
       subtitle: 'Browser automation tool based on Chrome Debugger API, supporting bookmark management, CDP deep control, automation scripts, and one-time authorization for all tabs',
       downloadBtn: 'Download Now',
-      docsBtn: 'View Docs'
+      docsBtn: 'View Docs',
+      website: 'www.wboke.com'
     },
     features: {
       title: 'Why autoclaw',
@@ -184,6 +186,8 @@ export default function App() {
             AC
           </div>
           <span className="font-black text-2xl tracking-tight hidden md:block">autoclaw</span>
+          <span className="font-bold text-lg text-gray-600 hidden md:block">|</span>
+          <a href="https://www.wboke.com" target="_blank" rel="noopener noreferrer" className="font-bold text-lg text-[#33E1ED] hover:underline hidden md:block">www.wboke.com</a>
         </div>
 
         {/* Desktop Links */}
