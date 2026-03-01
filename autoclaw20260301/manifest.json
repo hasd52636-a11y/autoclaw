@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "AutoClaw",
+  "version": "1.0.0",
+  "description": "OpenClaw Browser Automation Controller",
+  "permissions": [
+    "debugger",
+    "tabs",
+    "activeTab",
+    "storage",
+    "bookmarks",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "AutoClaw"
+  },
+  "options_page": "options.html"
+}
