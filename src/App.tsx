@@ -177,7 +177,7 @@ export default function App() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ type: "spring", bounce: 0.4, delay: 0.2 }}
-        className="fixed top-6 left-4 right-4 md:left-1/2 md:-translate-x-1/2 md:max-w-6xl z-50 flex justify-between md:justify-center items-center bg-white border-4 border-black rounded-full px-4 md:px-12 py-3 lego-shadow-sm"
+        className="fixed top-6 left-4 right-4 md:left-1/2 md:-translate-x-1/2 md:max-w-7xl lg:max-w-8xl z-50 flex justify-between md:justify-center items-center bg-white border-4 border-black rounded-full px-4 md:px-12 py-3 lego-shadow-sm min-w-[300px]"
       >
         <div className="flex items-center gap-3 md:mr-8">
           <div className="w-10 h-10 rounded-xl bg-[#FF4911] border-4 border-black flex items-center justify-center text-white font-black text-lg">
@@ -187,7 +187,7 @@ export default function App() {
         </div>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-4 font-bold text-lg">
+        <div className="hidden md:flex items-center gap-2 md:gap-4 font-bold text-lg whitespace-nowrap">
           <button onClick={() => navigate('download')} className="hover:text-[#FF4911] transition-colors">{tData.nav.download}</button>
           <button onClick={() => navigate('docs')} className="hover:text-[#33E1ED] transition-colors">{tData.nav.docs}</button>
           <button onClick={() => navigate('opensource')} className="hover:text-[#FFD500] transition-colors">{tData.nav.opensource}</button>
