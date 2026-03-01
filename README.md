@@ -1,8 +1,13 @@
 # AutoClaw
 
+![AutoClaw Logo](public/icon128.png)
+
 赋予OpenClaw更强大的网页操控能力和收藏夹操控能力。
 
 Empower OpenClaw with more powerful web control and bookmark management capabilities.
+
+## 官方网站 | Official Website
+[www.wboke.com](https://www.wboke.com)
 
 ## 特性 | Features
 
